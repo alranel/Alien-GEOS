@@ -12,7 +12,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   dist_abstract => 'Build and install GEOS',
   license => 'perl',
   configure_requires => {
-    'Alien::Base' => 0,
+    'Alien::Base::ModuleBuild' => 0,
   },
   requires => {
     'perl' => '5.8.1',
